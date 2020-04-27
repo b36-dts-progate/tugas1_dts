@@ -365,7 +365,6 @@ header {
   .testimonial img{
     width: 100px;
     height: 100px;
-    border-radius: 100%;
   }
   .name{
     font-size: 20px;
@@ -401,6 +400,12 @@ footer img {
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
+}
+
+footer p a{
+    color:blue;
+    font-size: 32px;
 }
 
 footer {
