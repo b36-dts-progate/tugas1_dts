@@ -20,38 +20,35 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  
   width: 100%;
-  height: 600px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(backgroundtugas.jpg);
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
   color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 1;
+  opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 1;
+  opacity: 0.7;
   margin-bottom: 3px;
-  color: red;
-  font-weight: bold;
 }
 
 .btn-wrapper {
   text-align: center;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .btn-wrapper p {
@@ -91,7 +88,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(34, 49, 52, 0.5);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -100,22 +97,24 @@ header {
 .logo {
   width: 90px;
   margin-top: 0px;
-  cursor: grab;
-  box-shadow: auto 124px yellow;
+}
+
+.logo{
+    cursor: grab;
+    box-shadow: auto 124px yellow;
 }
 .header-left {
   float: left;
-  margin-left: 25px;
 }
 
 .header-right {
   float: right;
-  margin-right: 25px;
+  margin-right: -25px;
 }
 
 .header-right a {
   line-height: 65px;
-  padding: 0 25px;
+  padding: 0 30px;
   color: white;
   display: block;
   float: left;
@@ -376,7 +375,36 @@ header {
     color: #6ab04c;
     margin-bottom: 20px;
   }
-  
+
+  .contact-form {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #34495e;
+
+
+}
+.contact-form h3{
+  text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-form p{
+  color: white;
+}
+input, textarea {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
   
   @media screen and (max-width:960px) {
   .col{
@@ -413,3 +441,21 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+
+.banner {
+  align-content: center;
+  padding-bottom: 30px;
+  position: relative; 
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+  animation-direction: alternate; 
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:100px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
