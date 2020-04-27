@@ -28,7 +28,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(backgroundtugas.jpg);
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -97,8 +97,11 @@ header {
 .logo {
   width: 90px;
   margin-top: 0px;
-  cursor: grab;
-  box-shadow: auto 124px yellow;
+}
+
+.logo{
+    cursor: grab;
+    box-shadow: auto 124px yellow;
 }
 .header-left {
   float: left;
@@ -106,7 +109,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: 25px;
+  margin-right: -25px;
 }
 
 .header-right a {
@@ -372,7 +375,34 @@ header {
     color: #6ab04c;
     margin-bottom: 20px;
   }
-  
+  .contact-form {
+  padding-top: 20px;
+  text-align: center;
+   background-color: #34495e;
+
+}
+.contact-form h3{
+  text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-form p{
+  color: white;
+}
+input, textarea {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
   
   @media screen and (max-width:960px) {
   .col{
